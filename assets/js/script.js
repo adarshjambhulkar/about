@@ -7,6 +7,16 @@
 // https://colorhunt.co/palette/1a1a2e16213e0f3460e94560
 
 
+
+
+
+
+
+
+
+
+
+
 $(".btn").click(function(){
   $(".adarsh").toggleClass(" active");
 });
@@ -17,13 +27,13 @@ $(".btn").click(function(){
             if(w>991){
               $("#collapseExample").removeClass("collapse");
               $(".sidebar-info").removeClass("media");
-              // $(".navbar").removeClass("fixed-bottom ");
+              $(".navbar").removeClass("fixed-bottom ");
 
 
             }else{
               $("#collapseExample").addClass("collapse");
               $(".sidebar-info").addClass("media");
-              // $(".navbar").addClass("fixed-bottom")
+              $(".navbar").addClass("fixed-bottom")
             }
 
     };
