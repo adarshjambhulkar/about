@@ -16,7 +16,6 @@
 
 
 
-
 $(".btn").click(function(){
   $(".adarsh").toggleClass(" active");
 });
