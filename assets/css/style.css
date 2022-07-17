@@ -326,7 +326,7 @@ li {
 .pro-fill {
   height: 12px;
   border-radius: 10rem;
-  
+
 }
 
 /* project */
@@ -469,12 +469,10 @@ li {
   .pro-bar {
     width: 0;
   }
-
   .contact-box {
     margin: 5px 0;
   }
   .project-box{
-
-    margin: 12px 40px;
+    margin: 12px;
   }
 }
