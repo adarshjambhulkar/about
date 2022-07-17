@@ -26,13 +26,14 @@ $(".btn").click(function(){
             if(w>991){
               $("#collapseExample").removeClass("collapse");
               $(".sidebar-info").removeClass("media");
-              $(".navbar").removeClass("fixed-bottom ");
-
+              $(".navbar").removeClass("fixed-bottom");
+              $(".info-fream").addClass(" has-scrollbar ");
 
             }else{
-              $("#collapseExample").addClass("collapse");
+              $("#collapseExample").addClass(" collapse");
               $(".sidebar-info").addClass("media");
-              $(".navbar").addClass("fixed-bottom")
+              $(".navbar").addClass("fixed-bottom");
+              $(".info-fream").removeClass("has-scrollbar");
             }
 
     };
